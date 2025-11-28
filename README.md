@@ -43,13 +43,14 @@ class car(models.Model):
     color=models.CharField(max_length=50)
 class carAdmin(admin.ModelAdmin):
     list_display=('reg_no',"brandname","fueltype",'price',"year",'color')
-    ```
+```
 
 
 
 
 ## OUTPUT
-ORM/Screenshot 2025-11-28 140424.png
+<img width="1918" height="1033" alt="Screenshot 2025-11-28 140424" src="https://github.com/user-attachments/assets/bdb555cf-86c2-4234-87d0-6b3a3be6e313" />
+
 
 
 ## RESULT
